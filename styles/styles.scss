@@ -1,0 +1,176 @@
+$ColorText: #707070;
+$ColorTextSecondary: #a0a0a0;
+$ColorLightGray: #E0E0E0;
+$ColorPrimary: #3949AB;
+
+$GlobalPadding: 30px;
+
+body {
+  background-color: $ColorLightGray;
+  color: $ColorText;
+  font-family: Roboto, sans-serif;
+  line-height: 20px;
+}
+
+.page-container {
+  background-color: #fff;
+  margin: 35px;
+  border-radius: 15px;
+}
+
+.res-head {
+  background-color: #fff;
+  padding: $GlobalPadding + 10px;
+  display: inline-flex;
+  border-radius: 15px 15px 0px 0px;
+
+  .circle-image {
+    background-color: $ColorLightGray;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background-image: url("../res/me3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .head-text {
+    padding-left: 20px;
+
+    h1 {
+      font-weight: normal;
+      margin: 18px 0px 12px 0px;
+    }
+
+    p {
+      color: $ColorTextSecondary;
+      margin: 5px 5px 20px 5px;
+      font-size: 14px;
+    }
+  }
+}
+
+.res-neck {
+  background-color: $ColorPrimary;
+  padding: 10px;
+  color: rgba(white, 0.7);
+  //position: absolute;
+  //left: 0;
+  //border-radius: 0px 100px 100px 0px;
+
+  .res-contact {
+    //background-color: black;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 14px;
+
+    .contact {
+      display: inline-flex;
+      font-size: 14px;
+
+      .contact-icon {
+        //height: 15px;
+        width: 15px;
+        margin: 0px 15px 0px 15px;
+        background-repeat: no-repeat;
+        //background-color: white;
+        //border-radius: 100%;
+      }
+
+      #phone {
+        background-image: url("../res/phone.png");
+        background-position: center;
+        background-size: contain;
+      }
+
+      #email {
+        background-image: url("../res/email.png");
+        background-position: center;
+        background-size: contain;
+      }
+
+      #github {
+        background-image: url("../res/github.png");
+        background-position: center;
+        background-size: contain;
+        filter: invert(1);
+      }
+    }
+  }
+}
+
+.res-body {
+  background-color: #fff;
+  padding: $GlobalPadding;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-radius: 0px 0px 15px 15px;
+
+  h3 {
+    font-weight: normal;
+    color: $ColorText;
+    //text-decoration: underline;
+    //font-size:
+  }
+
+  p {
+    color: $ColorTextSecondary;
+    font-size: 12px;
+  }
+
+  .body-container {
+    padding: $GlobalPadding;
+  }
+
+  .res-ex {
+    //background-color: #90A4AE;
+    p {
+      margin: 0px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-top: 30px;
+      color: $ColorPrimary;
+      line-height: normal;
+    }
+
+    span {
+      font-weight: lighter;
+      color: $ColorTextSecondary;
+    }
+  }
+
+  .res-sum {
+    //background-color: #B0BEC5;
+
+    p {
+      font-size: 12px;
+    }
+
+    ul {
+      font-size: 12px;
+      color: $ColorTextSecondary;
+    }
+
+    .sum-list {
+      //display: inline-table;
+    }
+
+    span {
+      background-color: $ColorPrimary;
+      color: white;
+      font-size: 12px;
+      padding: 5px;
+      line-height: 28px;
+      border-radius: 5px;
+
+      span {
+        padding: 0px;
+        color: $ColorPrimary;
+      }
+    }
+  }
+}

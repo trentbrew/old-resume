@@ -1,0 +1,106 @@
+body {
+  background-color: #E0E0E0;
+  color: #707070;
+  font-family: Roboto, sans-serif;
+  line-height: 20px; }
+
+.page-container {
+  background-color: #fff;
+  margin: 35px;
+  border-radius: 15px; }
+
+.res-head {
+  background-color: #fff;
+  padding: 40px;
+  display: inline-flex;
+  border-radius: 15px 15px 0px 0px; }
+  .res-head .circle-image {
+    background-color: #E0E0E0;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background-image: url("../res/me3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .res-head .head-text {
+    padding-left: 20px; }
+    .res-head .head-text h1 {
+      font-weight: normal;
+      margin: 18px 0px 12px 0px; }
+    .res-head .head-text p {
+      color: #a0a0a0;
+      margin: 5px 5px 20px 5px;
+      font-size: 14px; }
+
+.res-neck {
+  background-color: #3949AB;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.7); }
+  .res-neck .res-contact {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 14px; }
+    .res-neck .res-contact .contact {
+      display: inline-flex;
+      font-size: 14px; }
+      .res-neck .res-contact .contact .contact-icon {
+        width: 15px;
+        margin: 0px 15px 0px 15px;
+        background-repeat: no-repeat; }
+      .res-neck .res-contact .contact #phone {
+        background-image: url("../res/phone.png");
+        background-position: center;
+        background-size: contain; }
+      .res-neck .res-contact .contact #email {
+        background-image: url("../res/email.png");
+        background-position: center;
+        background-size: contain; }
+      .res-neck .res-contact .contact #github {
+        background-image: url("../res/github.png");
+        background-position: center;
+        background-size: contain;
+        filter: invert(1); }
+
+.res-body {
+  background-color: #fff;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-radius: 0px 0px 15px 15px; }
+  .res-body h3 {
+    font-weight: normal;
+    color: #707070; }
+  .res-body p {
+    color: #a0a0a0;
+    font-size: 12px; }
+  .res-body .body-container {
+    padding: 30px; }
+  .res-body .res-ex p {
+    margin: 0px; }
+  .res-body .res-ex h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    color: #3949AB;
+    line-height: normal; }
+  .res-body .res-ex span {
+    font-weight: lighter;
+    color: #a0a0a0; }
+  .res-body .res-sum p {
+    font-size: 12px; }
+  .res-body .res-sum ul {
+    font-size: 12px;
+    color: #a0a0a0; }
+  .res-body .res-sum span {
+    background-color: #3949AB;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 28px;
+    border-radius: 5px; }
+    .res-body .res-sum span span {
+      padding: 0px;
+      color: #3949AB; }
+
+/*# sourceMappingURL=compiled-styles.css.map */
