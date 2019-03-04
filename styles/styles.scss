@@ -14,8 +14,9 @@ body {
 
 .page-container {
   background-color: #fff;
-  margin: 35px;
+  margin: 5px auto 5px auto;
   border-radius: 15px;
+  max-width: 1000px;
 }
 
 .res-head {
@@ -61,7 +62,7 @@ body {
 
   .res-contact {
     //background-color: black;
-    width: 600px;
+    width: 550px;
     margin-left: auto;
     margin-right: auto;
     line-height: 14px;

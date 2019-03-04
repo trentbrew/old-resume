@@ -6,8 +6,9 @@ body {
 
 .page-container {
   background-color: #fff;
-  margin: 35px;
-  border-radius: 15px; }
+  margin: 5px auto 5px auto;
+  border-radius: 15px;
+  max-width: 1000px; }
 
 .res-head {
   background-color: #fff;
@@ -38,7 +39,7 @@ body {
   padding: 10px;
   color: rgba(255, 255, 255, 0.7); }
   .res-neck .res-contact {
-    width: 600px;
+    width: 550px;
     margin-left: auto;
     margin-right: auto;
     line-height: 14px; }
