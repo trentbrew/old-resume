@@ -66,6 +66,11 @@ a {
         background-position: center;
         background-size: contain;
         filter: invert(1); }
+      .res-neck .res-contact .contact #linkedin {
+        background-image: url("../res/linkedin.png");
+        background-position: center;
+        background-size: contain;
+        filter: invert(1); }
 
 .res-body {
   background-color: #fff;
