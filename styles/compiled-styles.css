@@ -121,10 +121,16 @@ a {
       background-size: contain;
       background-position: center; }
     .res-body .res-sum .project #fav3 {
-      background-image: url("../res/music-icon.svg");
+      background-image: url("../res/music-icon1.png");
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
+    .res-body .res-sum .project #fav4 {
+      background-image: url("../res/sonic2.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      filter: brightness(0); }
   .res-body .res-sum .favicon {
     width: 20px;
     height: 20px;
