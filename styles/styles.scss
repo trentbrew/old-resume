@@ -14,16 +14,26 @@ body {
 
 a {
   text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
-a:hover {
+.first {
+  list-style: none;
+}
 
+h3 {
+  //border-bottom: solid 1px #BDBDBD;
+  //padding-bottom: 10px;
+  color: black !important;
 }
 
 .page-container {
   background-color: #fff;
   margin: 5px auto 5px auto;
-  border-radius: 15px;
+  border-radius: 5px;
   max-width: 1000px;
 }
 

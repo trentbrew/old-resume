@@ -6,11 +6,19 @@ body {
 
 a {
   text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+.first {
+  list-style: none; }
+
+h3 {
+  color: black !important; }
 
 .page-container {
   background-color: #fff;
   margin: 5px auto 5px auto;
-  border-radius: 15px;
+  border-radius: 5px;
   max-width: 1000px; }
 
 .res-head {
