@@ -2,7 +2,6 @@ $ColorText: #707070;
 $ColorTextSecondary: #a0a0a0;
 $ColorLightGray: #E0E0E0;
 $ColorPrimary: #3949AB;
-
 $GlobalPadding: 30px;
 
 body {
@@ -10,6 +9,8 @@ body {
   color: $ColorText;
   font-family: Roboto, sans-serif;
   line-height: 20px;
+  padding: 0px;
+  margin: 0px;
 }
 
 a {
@@ -32,16 +33,16 @@ h3 {
 
 .page-container {
   background-color: #fff;
-  margin: 5px auto 5px auto;
-  border-radius: 5px;
-  max-width: 1000px;
+  margin: 0px auto 0px auto;
+  //border-radius: 5px;
+  max-width: 1100px;
 }
 
 .res-head {
   background-color: #fff;
   padding: $GlobalPadding + 10px;
   display: inline-flex;
-  border-radius: 15px 15px 0px 0px;
+  //border-radius: 15px 15px 0px 0px;
 
   .circle-image {
     background-color: $ColorLightGray;
@@ -223,6 +224,14 @@ h3 {
         background-position: center;
         filter: brightness(0);
       }
+
+      #fav5 {
+        background-image: url("../res/ring.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        filter: brightness(0);
+      }
     }
 
     .favicon {
@@ -252,4 +261,7 @@ h3 {
       }
     }
   }
+}
+
+@media only screen and (max-width: 768px) {
 }

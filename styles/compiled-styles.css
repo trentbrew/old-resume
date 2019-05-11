@@ -2,7 +2,9 @@ body {
   background-color: #E0E0E0;
   color: #707070;
   font-family: Roboto, sans-serif;
-  line-height: 20px; }
+  line-height: 20px;
+  padding: 0px;
+  margin: 0px; }
 
 a {
   text-decoration: none; }
@@ -17,15 +19,13 @@ h3 {
 
 .page-container {
   background-color: #fff;
-  margin: 5px auto 5px auto;
-  border-radius: 5px;
-  max-width: 1000px; }
+  margin: 0px auto 0px auto;
+  max-width: 1100px; }
 
 .res-head {
   background-color: #fff;
   padding: 40px;
-  display: inline-flex;
-  border-radius: 15px 15px 0px 0px; }
+  display: inline-flex; }
   .res-head .circle-image {
     background-color: #E0E0E0;
     height: 80px;
@@ -135,6 +135,12 @@ h3 {
       background-position: center; }
     .res-body .res-sum .project #fav4 {
       background-image: url("../res/sonic2.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      filter: brightness(0); }
+    .res-body .res-sum .project #fav5 {
+      background-image: url("../res/ring.png");
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
