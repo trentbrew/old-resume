@@ -1,7 +1,7 @@
 $ColorText: #707070;
 $ColorTextSecondary: #a0a0a0;
 $ColorLightGray: #E0E0E0;
-$ColorPrimary: #3949AB;
+$ColorPrimary: black;
 $GlobalPadding: 30px;
 
 body {
@@ -15,6 +15,7 @@ body {
 
 a {
   text-decoration: none;
+  color: black !important;
 
   &:hover {
     text-decoration: underline;
