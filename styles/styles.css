@@ -67,6 +67,7 @@ h3 {
 .res-neck {
   background-color: black;
   padding: 10px;
+  border-radius: 0px 100px 100px 0px;
 }
 
 .res-neck .res-contact {
