@@ -5,7 +5,7 @@ $ColorPrimary: black;
 $GlobalPadding: 30px;
 
 body {
-  background-color: $ColorLightGray;
+  background-color: white;
   color: $ColorText;
   font-family: 'Nunito', sans-serif;
   line-height: 20px;
@@ -137,12 +137,17 @@ h3 {
   grid-template-columns: 2fr 1fr;
   border-radius: 0px 0px 15px 15px;
 
+  .first {
+    //background: red;
+    width: 90%;
+  }
+
   h3 {
     font-weight: normal;
     color: $ColorText;
     opacity: 0.6;
     //text-decoration: underline;
-    //font-size:
+    font-size: 18px;
   }
 
   p {
@@ -251,7 +256,12 @@ h3 {
     }
 
     .research-title {
-      color: red;
+      color: black !important;
+      background: white!important;
+      padding: 0px 0px 0px 3px!important;
+      font-size: 18px!important;
+      opacity: 0.6;
+      font-weight: normal;
     }
 
     span {
