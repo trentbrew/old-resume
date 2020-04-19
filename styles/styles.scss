@@ -7,7 +7,7 @@ $GlobalPadding: 30px;
 body {
   background-color: white;
   color: $ColorText;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 20px;
   padding: 0px;
   margin: 0px;
@@ -41,9 +41,12 @@ h3 {
 
 .res-head {
   background-color: #fff;
-  padding: $GlobalPadding + 10px;
+  padding-top: $GlobalPadding + 10px;
+  padding-bottom: $GlobalPadding + 10px;
   display: inline-flex;
   //border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  text-align: center;
 
   .circle-image {
     background-color: $ColorLightGray;
@@ -57,7 +60,8 @@ h3 {
   }
 
   .head-text {
-    padding-left: 20px;
+    padding-left: 0px;
+    width: 100%;
 
     h1 {
       font-weight: normal;
@@ -79,6 +83,8 @@ h3 {
   //position: absolute;
   //left: 0;
   border-radius: 100px;
+  display: flex;
+  justify-content: center;
 
   .res-contact {
     //background-color: black;
@@ -121,7 +127,14 @@ h3 {
       }
 
       #linkedin {
-        background-image: url("../res/linkedin.png");
+        background-image: url("../res/li.png");
+        background-position: center;
+        background-size: contain;
+        filter: invert(1);
+      }
+
+      #twitter {
+        background-image: url("../res/tw.png");
         background-position: center;
         background-size: contain;
         filter: invert(1);

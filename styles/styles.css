@@ -1,7 +1,7 @@
 body {
   background-color: white;
   color: #252525;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 20px;
   padding: 0px;
   margin: 0px;
@@ -32,10 +32,13 @@ h3 {
 
 .res-head {
   background-color: #fff;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  width: 100%;
+  text-align: center;
 }
 
 .res-head .circle-image {
@@ -50,7 +53,8 @@ h3 {
 }
 
 .res-head .head-text {
-  padding-left: 20px;
+  padding-left: 0px;
+  width: 100%;
 }
 
 .res-head .head-text h1 {
@@ -68,6 +72,12 @@ h3 {
   background-color: black;
   padding: 10px;
   border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .res-neck .res-contact {
@@ -111,7 +121,15 @@ h3 {
 }
 
 .res-neck .res-contact .contact #linkedin {
-  background-image: url("../res/linkedin.png");
+  background-image: url("../res/li.png");
+  background-position: center;
+  background-size: contain;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.res-neck .res-contact .contact #twitter {
+  background-image: url("../res/tw.png");
   background-position: center;
   background-size: contain;
   -webkit-filter: invert(1);
