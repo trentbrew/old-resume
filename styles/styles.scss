@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 $ColorText: #252525;
 $ColorTextSecondary: #252525;
 $ColorLightGray: #E0E0E0;
@@ -7,7 +9,7 @@ $GlobalPadding: 30px;
 body {
   background-color: white;
   color: $ColorText;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 20px;
   padding: 0px;
   margin: 0px;
@@ -107,6 +109,13 @@ h3 {
         //border-radius: 100%;
       }
 
+      #website {
+        background-image: url("../res/website.svg");
+        background-position: center;
+        background-size: contain;
+        filter: invert(1);
+      }
+
       #phone {
         background-image: url("../res/phone.png");
         background-position: center;
@@ -161,6 +170,7 @@ h3 {
     opacity: 0.6;
     //text-decoration: underline;
     font-size: 18px;
+    font-style: italic;
   }
 
   p {
@@ -190,6 +200,10 @@ h3 {
       color: $ColorTextSecondary;
       opacity: 0.6;
     }
+  }
+
+  .summary {
+    margin-left: 0px;
   }
 
   .res-sum {

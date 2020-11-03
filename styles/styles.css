@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 body {
   background-color: white;
   color: #252525;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 20px;
   padding: 0px;
   margin: 0px;
@@ -100,6 +101,14 @@ h3 {
   background-repeat: no-repeat;
 }
 
+.res-neck .res-contact .contact #website {
+  background-image: url("../res/website.svg");
+  background-position: center;
+  background-size: contain;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
 .res-neck .res-contact .contact #phone {
   background-image: url("../res/phone.png");
   background-position: center;
@@ -155,6 +164,7 @@ h3 {
   color: #252525;
   opacity: 0.6;
   font-size: 18px;
+  font-style: italic;
 }
 
 .res-body p {
@@ -181,6 +191,10 @@ h3 {
   font-weight: lighter;
   color: #252525;
   opacity: 0.6;
+}
+
+.res-body .summary {
+  margin-left: 0px;
 }
 
 .res-body .res-sum a {
